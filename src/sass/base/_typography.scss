@@ -1,0 +1,20 @@
+@mixin size-l {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+@mixin size-lm {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+@mixin size-m {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+@mixin size-s {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}

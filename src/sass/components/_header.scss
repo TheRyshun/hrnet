@@ -1,0 +1,35 @@
+.header {
+    background-color: #f0ffff;
+    padding: 10px 0;
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    &__box {
+        @include flex(row, space-between, center);
+        margin: 0 28px;
+    }
+
+    &__text {
+        @include size-l;
+        font-weight: bold;
+        display: flex;
+        gap: 48px;
+    }
+
+    &__redirect {
+        text-decoration: none;
+        color: black;
+        transition: color 0.3s;
+    }
+    
+    &__redirect:hover {
+        color: #00d885; 
+    }
+    
+}
+
+img {
+    height: 132px;
+    width: 122px;
+}

@@ -1,0 +1,33 @@
+.list {
+    padding: 12px;
+}
+.list__search {
+    background-color: #f0ffff86;
+    padding: 8px;
+    width: 40%;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+.list__input {
+  @include size-s;
+  width: 50%;
+  border-radius: 6px;
+  border: none;
+  padding: 6px 8px;
+  font-style: italic;
+  text-align: left;
+}
+
+.list__searchText {
+    @include size-m;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.list_pagination {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    @include size-m;
+    font-weight: bold;
+}
